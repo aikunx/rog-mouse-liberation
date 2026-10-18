@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Obfuscator>
+  <Var name="InPath" value="." />
+  <Var name="OutPath" value=".\Obfuscated" />
+  <Var name="KeepPublicApi" value="true" />
+  <Var name="HidePrivateApi" value="true" />
+  <Var name="RenameProperties" value="true" />
+  <Var name="RenameEvents" value="true" />
+  <Var name="RenameFields" value="true" />
+  <Var name="RenameMethods" value="true" />
+  <Var name="RenameParameters" value="true" />
+  <Var name="ReuseNames" value="true" />
+  <Var name="HideStrings" value="false" />
+  <Var name="OptimizeMethods" value="true" />
+
+  <Module file="$(InPath)\FerrisPulse.raw.exe">
+    <!-- 保留 Windows Forms 入口与 Win32 P/Invoke 签名 -->
+    <SkipType name="RazerBatteryTray.Program" skipMethods="true" skipFields="true" />
+    <SkipType name="RazerBatteryTray.NativeMethods" skipMethods="true" skipFields="true" />
+    <SkipType name="RazerBatteryTray.MainForm" skipMethods="true" skipFields="true" />
+    <SkipType name="RazerBatteryTray.RazerDeviceHelper" skipMethods="true" skipFields="true" />
+    <SkipType name="RazerBatteryTray.ChimeSynthesizer" skipMethods="true" skipFields="true" />
+    <SkipType name="RazerBatteryTray.DonateQrAssets" skipMethods="true" skipFields="true" />
+    <SkipType name="RazerBatteryTray.StartupManager" skipMethods="true" skipFields="true" />
+    <SkipType name="RazerBatteryTray.ConfigManager" skipMethods="true" skipFields="true" />
+  </Module>
+</Obfuscator>

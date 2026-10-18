@@ -1,0 +1,16 @@
+# 构建产物
+bin/
+obj/
+publish/
+publish-zh/
+*.exe
+*.dll
+*.pdb
+
+# 日志与数据
+*.log
+*.jsonl
+
+# 系统
+Thumbs.db
+.DS_Store

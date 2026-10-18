@@ -1,0 +1,14 @@
+﻿{
+    "latestVersion":  "2.0.2",
+    "releaseDate":  "2026-10-17",
+    "minSupportedVersion":  "1.0.0",
+    "downloadUrl":  "https://github.com/Ferris-echo/FerrisPulse/releases/download/v2.0.2/FerrisPulse.exe",
+    "sha256":  "8fd8f5539db43240ca99603623ac5854acac84d5ca9479d8ea59b4b581790354",
+    "fileSize":  691200,
+    "changelog":  [
+                      "【动效与渲染】全屏游戏回报率折叠动画修复：彻底解决展开/收回时出现的假死、画面撕裂与重叠残影，升级为 160ms 卷帘门式自然遮罩动效；",
+                      "【安全与防误报】尝试解决杀软误杀拦截：停用代码混淆器，自动更新改为 C# 进程内安全热替换，规避启发式误报；",
+                      "【托盘图标精修】断联状态图标重绘：胶囊电池断联状态补齐闭合四角边框，数字能量表断联状态中间破折号居中；",
+                      "【快捷方式体验优化】：去除启动时自动创建桌面快捷方式，改为托盘菜单由用户手动主动创建。"
+                  ]
+}
