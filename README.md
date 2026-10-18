@@ -30,7 +30,7 @@
 
 ### 我只想用，不想看代码
 
-1. 下载 [Releases](https://github.com/aikunx/rog-mouse-toolkit/releases) 里的 `FerrisPulse.exe`
+1. 下载 [Releases](https://github.com/aikunx/rog-mouse-liberation/releases/latest) 里的 `FerrisPulse.exe`
 2. **右键 → 以管理员身份运行**（必须，否则读不到鼠标）
 3. 右下角托盘出现图标，右键 →「ROG 鼠标设置」
 
