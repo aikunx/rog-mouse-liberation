@@ -1,5 +1,7 @@
 # ROG 影刃 3 无线版 · 逆向与控制端
 
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
+
 [**简体中文**](README.md) | [English](README.en.md)
 
 ---
@@ -246,7 +248,3 @@ A：可能可以。协议族是华硕共用的，主要差异在 reportId（有�
 <p align="center">
   <i>让外设回归工具的本质</i>
 </p>
-
----
-
-[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
