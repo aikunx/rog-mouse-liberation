@@ -1,6 +1,7 @@
 # ROG Strix Impact III Wireless: Reverse Engineering + Standalone Control
 
 [![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
+![platform Windows](https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white) ![C# WinForms](https://img.shields.io/badge/C%23-WinForms-239120?style=flat-square&logo=csharp&logoColor=white) ![polling 8000 Hz](https://img.shields.io/badge/polling-8000_Hz-orange?style=flat-square) ![protocol HID reverse engineered](https://img.shields.io/badge/protocol-HID_reverse_engineered-blueviolet?style=flat-square) ![license GPL v3](https://img.shields.io/badge/license-GPL_v3-orange?style=flat-square)
 
 > Freeing the ROG STRIX IMPACT III WIRELESS (P520) from the Armoury Crate ecosystem.
 > Includes complete HID protocol documentation and a control app that does not require ASUS software.
